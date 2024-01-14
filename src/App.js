@@ -30,7 +30,7 @@ function App() {
             <div className="fixed -z-10 min-h-screen w-screen top-0 left-0 bg-black opacity-40" ></div>
         <div className="relative mx-auto min-h-screen">
           <Routes>
-              <Route path="/" element={<LandingPage/>} />
+              <Route path="/gig-mates" element={<LandingPage/>} />
               <Route path="/register" element={<Register/>} />
               <Route element={<PrivateRoutes/>}>
                 <Route path="/post" element={<CreatePost/>} />
